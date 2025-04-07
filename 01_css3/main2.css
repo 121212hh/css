@@ -1,0 +1,15 @@
+@charset "utf-8";
+body{
+    font-family: "맑은 고딕","margun gothic", sans-serif;
+}
+.h21 {
+    color: blue;
+}
+
+span {
+    color: red;
+}
+div{
+    border: 1px solid #000;
+    width: 700px;
+}
