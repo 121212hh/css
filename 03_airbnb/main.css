@@ -18,7 +18,7 @@ body{
 }
 .card .textbox{
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 14px;
 }
 .card .textbox h3{
