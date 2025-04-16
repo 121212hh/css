@@ -64,5 +64,11 @@ a{
     margin-left: 0;
     margin-top: 5;
 }
+.visual{
+    width: 100%;
+    height: 652px;
+    background: url(../imege/visual1.jpg) no-repeat center top;
+}
+
 
 

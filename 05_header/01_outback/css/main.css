@@ -60,4 +60,9 @@ a{
     background: #262024;
     padding: 10px 20px;
 }
+.visual{
+    width: 100%;
+    height: 900px;
+    background: url(../imege/20250314110005847042.png) no-repeat center top;
+}
 

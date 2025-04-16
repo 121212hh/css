@@ -46,6 +46,11 @@ a{
 .icon1{
     margin-top: 3px;
 }
+.visual{
+    width: 100%;
+    height: 900px;
+    background: url(../imege/main_01_01.jpg) no-repeat center top;
+}
 
 
 
