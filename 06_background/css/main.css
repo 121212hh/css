@@ -1,0 +1,41 @@
+@charset "utf-8" ;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+body{
+    font-family: "Noto Sans KR", sans-serif;
+}
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+ul{
+    width: 1180px;
+    height: 160px;
+    background: gold;
+    margin: auto;
+}
+ul li{
+    width: 393.33px;
+    height: 160px;
+    background: green;
+    float: left;
+    padding: 30px;
+    /* padding은 크기가 늘어나므로 원래 크기를 유지해주는 명령 */
+    box-sizing: border-box;
+}
+ul li h2{
+    font-size: 24px;
+    font-weight: 900;
+    color: #fff;
+}
+ul li p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+ul .first{
+    background: #907355 url(../images/speed_menu_icon_02.png) no-repeat 233px center;
+}
+ul .li2{
+    background: #434343 url(../images/speed_menu_icon_03.png) no-repeat 233px center;
+}
+ul .last{
+    background: #c30706 url(../images/speed_menu_icon_04.png) no-repeat 233px center;
+}
