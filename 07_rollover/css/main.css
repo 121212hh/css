@@ -121,6 +121,9 @@ a{text-decoration: none;}
     background: #1a1a1a url(../images/icon_arrow_top_16x16_w.svg) no-repeat 150px center;
     border-radius: 999px;
     margin-top: 20px;
+  
+    text-align: left;
+      text-indent: 16px;
 }
 .btn6:hover{
     background: #323232 url(../images/icon_arrow_top_16x16_w.svg) no-repeat 150px center;
