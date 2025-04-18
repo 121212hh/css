@@ -55,6 +55,9 @@ a{
     color: #54484c;
     font-weight: 400;
 }
+.header .inner .gmb li a:hover{
+    color: #c40f39;
+}
 .header .inner .icon li{
     float: left;
     line-height: 89px;

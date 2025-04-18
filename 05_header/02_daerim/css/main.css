@@ -35,6 +35,10 @@ a{
     float: left;
     line-height: 70px;
 }
+.header .inner .gmb li a:hover{
+    color: #2f6aaf;
+}
+
 .header .inner .icon{
     float: right;
 }
