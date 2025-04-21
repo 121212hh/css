@@ -1,0 +1,112 @@
+@charset "utf-8";
+body{
+    font-family: "맑은 고딕","margum gothic",sans-serif;
+}
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+.header{
+    width: 100%;
+    height: 90px;
+    background: url("../images/bg_head.png")repeat-x;
+}
+.header h1{
+    padding-top: 13px;
+    padding-left: 23px;
+}
+.header ul li{
+    float: left;
+}
+
+.header ul li a{
+    width: 77px;
+    height: 33px;
+    display: block;
+    text-indent: -99999px;
+}
+.header ul .first a{
+    width: 77px;
+    height: 33px;
+    background: url(../images/btn_lnb_v3.png) no-repeat;
+}
+.header ul .first a:hover{
+    background: url(../images/btn_lnb_v3.png) no-repeat;
+    background-position-y: -68px;
+}
+.header ul .li2 a{
+    width: 82px;
+    height: 33px;
+    background: url(../images/btn_lnb_v3.png) no-repeat;
+    background-position-x:-170px ;
+}
+.header ul .li2 a:hover{
+    background: url(../images/btn_lnb_v3.png) no-repeat;
+    background-position-y: -68px;
+    background-position-x: -170px;
+}
+.header ul .li3 a{
+    width: 96px;
+    height: 33px;
+    background: url(../images/btn_lnb_v3.png) no-repeat;
+    background-position-x:-255px ;
+}
+.header ul .li3 a:hover{
+    background: url(../images/btn_lnb_v3.png) no-repeat;
+    background-position-y: -68px;
+    background-position-x: -255px;
+}
+.header ul .li4 a{
+    width: 96px;
+    height: 33px;
+    background: url(../images/btn_lnb_v3.png) no-repeat;
+    background-position-x:-915px ;
+}
+.header ul .li4 a:hover{
+    background: url(../images/btn_lnb_v3.png) no-repeat;
+    background-position-y: -68px;
+    background-position-x: -915px;
+}
+.header ul .li5 a{
+    width: 95px;
+    height: 33px;
+    background: url(../images/btn_lnb_v3.png) no-repeat;
+    background-position-x:-430px ;
+}
+.header ul .li5 a:hover{
+    background: url(../images/btn_lnb_v3.png) no-repeat;
+    background-position-y: -68px;
+    background-position-x: -430px;
+}
+.header ul .li6 a{
+    width: 117px;
+    height: 33px;
+    background: url(../images/btn_lnb_v3.png) no-repeat;
+    background-position-x:-620px ;
+}
+.header ul .li6 a:hover{
+    background: url(../images/btn_lnb_v3.png) no-repeat;
+    background-position-y: -68px;
+    background-position-x: -620px;
+}
+.header ul .last a{
+    width: 74px;
+    height: 33px;
+    background: url(../images/btn_lnb_v3.png) no-repeat;
+    background-position-x:-835px ;
+}
+.header ul .last a:hover{
+    background: url(../images/btn_lnb_v3.png) no-repeat;
+    background-position-y: -68px;
+    background-position-x: -835px;
+}
+
+
+
+
+
+
+
+
+
+
