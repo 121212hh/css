@@ -19,7 +19,7 @@ div ul li{
     height: 64px;
     border: 1px solid #d8d8d8;
     display: block;
-    padding-right: 10px;
+    padding-right: 19px;
     box-sizing: border-box;
 }
 
@@ -34,15 +34,20 @@ div ul li{
 
 ul li a{
     text-align: right;
+    color: black;
+    letter-spacing: -1px;
 }
 
 ul li a p{
     font-size: 12px;
-    margin-top: 20px;
+    margin-top: 13px;
+    color: #6E7172;
 }
 
 ul li a h4{
     font-size: 15px;
+    color: #6D6884;
+    
 }
 
 .li1, .li2,.li4, .li5{
@@ -65,4 +70,4 @@ div ul .li5{background-position-y: -217px;}
 
 div ul .li6{background-position-y: -271px;}
 
-div ul li{background-position-x: -5px;}
+div ul li{background-position-x: -3px;}
