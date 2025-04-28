@@ -1,0 +1,113 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    font-family: "roboto","Noto Sans KR", sans-serif;
+}
+
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+button{border: none; background: none; cursor: pointer;}
+img{border: none; display: block;}
+li{list-style: none;}
+
+.header{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #f7f7f7;
+    position: relative;
+    background: #fff;
+}
+.header h1 a{
+    display: block;
+    width: 120px;
+    height: 24px;
+    background: url(../image/logo_app.png)no-repeat;
+    background-size: 120px 24px;
+    text-indent: -99999px;
+}
+.header h1{
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    top: 50%;
+    margin-top: -12px;
+}
+.header button{
+    width: 25px;
+    height: 25px;
+    background: url(../image/icon_cart.png)no-repeat;
+    background-size: 25px 25px;
+    text-indent: -99999px;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    margin-top: -12.5px;
+    margin-right: 20px;
+}
+.login{
+    width: 100%;
+    height: 112px;
+    background: #f6f6f6;
+    padding: 24px 15px;
+}
+.login .go{
+    float: right;
+    font-size: 16px;
+    font-weight: 700;
+    color: #258943;
+}
+.login p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+.visual img{
+    width: 100%;
+}
+.order{
+    width: 100%;
+    padding: 10px 0px;
+    background: #f6f6f6;
+}
+.order .orderlist{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.order .orderlist li{
+    width: 49%;
+    height: 176px;
+    background: #fff;
+    border-radius: 16px;
+    float: left;
+    margin-right: 2%;
+    padding: 18px;
+    box-sizing: border-box;
+    box-shadow: 0.7px 1px 6px #c8c8c8;
+}
+.order .orderlist li.last{
+    margin-right: 0;
+}
+.order .orderlist li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #a09694;;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.order .orderlist li a span{
+    font-size: 20px;
+    font-weight: 900;
+    color: #000;
+    font-family: "roboto";
+}
+.order .orderlist li:first-child{
+    background: url(../image/img_fastsub2.png)no-repeat 90% 90%;
+}
+.order .orderlist li:last-child{
+    background: url(../image/img_homesub2.png)no-repeat 90% 90%;
+}
