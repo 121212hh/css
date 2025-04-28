@@ -51,6 +51,7 @@ li{list-style: none;}
     height: 112px;
     background: #f6f6f6;
     padding: 24px 15px;
+    box-sizing: border-box;
 }
 .login .go{
     float: right;
