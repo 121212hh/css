@@ -1,0 +1,98 @@
+@charset "utf-8";
+body{
+    font-family: "맑은 고딕","margun gothic",sans-serif;
+}
+
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+.wrap{
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+    background: gold;
+}
+.wrap .header{
+    width: 100%;
+    height: 100px;
+    background: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrap .header h1{
+    width: 200px;
+    height: 100px;
+    background: darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.wrap .header ul{
+    width: 600px;
+    height: 100px;
+    background: chartreuse;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrap .slide{
+    width: 100%;
+    height: 300px;
+    background: palegreen;
+}
+.wrap .contents{
+    width: 100%;
+    height: 200px;
+    background: brown;
+    display: flex;
+}
+.wrap .contents div{
+    width: 400px;
+    height: 200px;
+    background: fuchsia;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 200px;
+}
+.wrap .contents .border{
+    background: gray;
+}
+.wrap .contents .banner{
+    background: red;
+}
+.wrap .contents .go{
+    background: blue;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background: lavender;
+    display: flex;
+}
+.footer div{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 900;
+    line-height: 100px;
+}
+.wrap .footer h1{
+    width: 200px;
+    height: 100px;
+    background: palevioletred;
+}
+.wrap .footer .copy{
+    width: 800px;
+    height: 100px;
+    background: purple;
+}
+.wrap .footer .sns{
+    width: 200px;
+    height: 100px;
+    background: peru;
+}
+
+
