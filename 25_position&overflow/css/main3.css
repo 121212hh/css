@@ -16,7 +16,6 @@ button{cursor: pointer;}
 .header .inner{
     width: 1000px;
     height: 72px;
-    background: gold;
     margin: auto;
     display: flex;
     justify-content: flex-start;
