@@ -1,0 +1,127 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Noto Sans KR", "Arial", ;
+}
+
+*{padding: 0;margin: 0;}
+a{text-decoration: none;}
+li{list-style: none;}
+button{cursor: pointer;}
+.header{
+    width: 100%;
+    height: 72px;
+    background: #fff;
+}
+.header .inner{
+    width: 1000px;
+    height: 72px;
+    background: gold;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.line{
+    width: 100%;
+    height: 4px;
+    background: url(../image/bg_gnb.gif) no-repeat;
+}
+.main{
+    width: 100%;
+    height: 2200px;
+    background: #fff;
+}
+.footer{
+    width: 100%;
+    height: 119px;
+    background: #f8f8f8;
+    border-top: 1px solid #dadedd;
+}
+.footer .inner{
+    width: 1000px;
+    height: 119px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+.footer .inner .wrap ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 610px;
+
+    gap: 10px;
+}
+.footer .inner .wrap ul li a{
+    font-size: 12px;
+    color: #56555a;
+    letter-spacing: -1px;
+}
+.footer .inner .wrap p{
+    font-size: 12px;
+    color: #56555a;
+    margin-top: 13px;
+}
+.footer .inner .wrap ul li:first-child a,
+.footer .inner .wrap ul li:nth-child(2) a,
+.footer .inner .wrap ul li:nth-child(3) a,
+.footer .inner .wrap ul li:nth-child(8) a,
+.footer .inner .wrap ul li:last-child a{
+    color: #2b4e88;
+    font-weight: 500;
+}
+.footer .inner .group{
+    display: flex;
+    gap: 6px;
+}
+.footer .inner .group button{
+    width: 140px;
+    height: 23px;
+    border: 1px solid #c6c7c9;
+    background: #fff;
+    font-size: 13px;
+    text-align: left;
+    text-indent: 8px;
+    background: url(../image/ico_sel_arr.gif) no-repeat 90% center;
+    
+}
+.footer .inner .group div ul{
+    width: 140px;
+    border: 1px solid #c6c7c9;
+    box-sizing: border-box;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 59px;
+    display: none;
+    height: 100px;
+    overflow: auto;
+}
+.footer .inner .group .family2,
+.footer .inner .group .family1{
+    position: relative;
+}
+.footer .inner .group .family2 ul li a,
+.footer .inner .group .family1 ul li a{
+    font-size: 13px;
+    text-indent: 10px;
+    color: #000;
+}
+.footer .inner .group .family2 ul li:hover a,
+.footer .inner .group .family1 ul li:hover a{
+    font-weight: 700;
+    color: #333;
+}
+.footer .inner .group .family2:hover ul,
+.footer .inner .group .family1:hover ul{
+    display: block;
+    
+}
+.footer .inner .group .family2 ul,
+.footer .inner .group .family1 ul{
+    display: none;
+}
