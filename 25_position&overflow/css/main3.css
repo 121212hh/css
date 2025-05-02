@@ -65,6 +65,21 @@ button{cursor: pointer;}
     color: #56555a;
     margin-top: 13px;
 }
+/* li하나마다 경계선 */
+.footer .inner .wrap ul li{
+    position: relative;
+}
+.footer .inner .wrap ul li:after{
+    content: "";
+    width: 1px;
+    height: 10px;
+    background: #b7b6b4; 
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    margin-top: -5px;
+}
+
 .footer .inner .wrap ul li:first-child a,
 .footer .inner .wrap ul li:nth-child(2) a,
 .footer .inner .wrap ul li:nth-child(3) a,
