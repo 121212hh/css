@@ -99,6 +99,7 @@ button{cursor: pointer;}
     display: none;
     height: 100px;
     overflow: auto;
+    text-indent: 10px;
 }
 .footer .inner .group .family2,
 .footer .inner .group .family1{
@@ -107,7 +108,6 @@ button{cursor: pointer;}
 .footer .inner .group .family2 ul li a,
 .footer .inner .group .family1 ul li a{
     font-size: 13px;
-    text-indent: 10px;
     color: #000;
 }
 .footer .inner .group .family2 ul li:hover a,
