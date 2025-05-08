@@ -10,6 +10,7 @@ img{border: none; display: inline;}
 li{list-style: none;}
 button{background: none; border: none; cursor: pointer; }
 
+
 .header{
     width: 100%;
     height: 59px;
@@ -39,14 +40,18 @@ button{background: none; border: none; cursor: pointer; }
     height: 54px;
     display: flex;
     border-bottom: 1px solid #d4d4d4;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 80px;
-    gap: 20px;
+    padding: 0 70px;
     box-sizing: border-box;
 }
 .menu a{
     font-size: 12px;
     color: #484d49;
+}
+
+.menu a:hover{
+    color: #ed174d;
 }
 
 .banner a img{
@@ -56,18 +61,21 @@ button{background: none; border: none; cursor: pointer; }
 .main1{
     width: 100%;
     height: 243px;
+    text-align: center;
 }
 .main1 h2{
     text-align: center;
     font-size: 19px;
     font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 .main1 ul{
-    padding: 0 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: gold;
+    box-sizing: border-box;
+    padding: 0 100px;
 }
 .main1 ul li img{
     width: 40px;
@@ -77,6 +85,64 @@ button{background: none; border: none; cursor: pointer; }
     text-align: center;
     color: #000;
 }
-.main1 ul li{
-    border: 1px solid red;
+
+.main1 a p:hover, h3:hover {
+    color: #ed174d;
 }
+
+.main2{
+    width: 100%;
+    background: #f2f3f7;
+    padding-top: 46px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.main2 h2{
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.main2 p{
+    text-align: center;
+}
+.main2 img{
+    width: 320px;
+    height: 320px;
+    margin-bottom: 72px;
+}
+
+.search{
+    width: 100%;
+    background: #ed174d;
+    text-align: center;
+    padding: 60px 95px;
+    box-sizing: border-box;
+}
+.search .txt h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 35px;
+}
+.search .txt{
+    background: gold;
+    width: 321px;
+    text-align: center;
+}
+.search .txt p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.search .txt img{
+    width: 21.5px;
+    height: 21px;
+    color: #fff;
+    
+}
+
+
+
