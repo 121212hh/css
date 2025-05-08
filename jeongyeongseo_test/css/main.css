@@ -74,9 +74,11 @@ button{background: none; border: none; cursor: pointer; }
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 80px;
     box-sizing: border-box;
-    padding: 0 100px;
+    gap: 45px;
 }
+
 .main1 ul li img{
     width: 40px;
     height: 40px;
@@ -161,6 +163,7 @@ button{background: none; border: none; cursor: pointer; }
 .bar a{
     font-size: 14px;
     font-weight: 600;
+    line-height: 55px;
 }
 .bar img{
     width: 21px;
