@@ -11,7 +11,7 @@ button{border: none; background: none; cursor: pointer;}
     padding: 100px 0 80px;
 }
 .section .inner{
-    width: 1700px;
+    width: 1694px;
     margin: auto;
 }
 .section .inner h2{
@@ -38,12 +38,12 @@ button{border: none; background: none; cursor: pointer;}
     height: 100%;
     margin-top: 65px;
     display: flex;
-gap: 16px;
+gap: 32px;
 justify-content: center;
 }
 .section .inner .product li{
-    width: 318px;
-    height: 419px;
+    width: 313.2px;
+    height: 410px;
     
 }
 .section .inner .product li a{
