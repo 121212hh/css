@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+*{padding: 0;margin: 0;}
+
+
+.box1,.box2{
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 200px;
+}
+.box1{border: 1px solid blue;}
+.box2{border: 1px solid orange;}
+.box11,.box22{width: 100px;height: 100px;position: absolute;position: relative;}
+.box11{background: palevioletred;
+    animation: box11 3s ease-in-out infinite;
+}
+.box22{background: yellow;
+animation: box22 3s ease-in-out forwards;
+}
+@keyframes box11 {
+    0%{left: 0; top: 0;}
+    25%{left: 900px; top: 0;}
+    50%{left: 900px; top: 200px;}
+    75%{left: 0; top: 200px;}
+    100%{left: 0; top: 0;}
+}
+@keyframes box22 {
+    0%{left: 0; top: 0;}
+    20%{left: 900px; top: 0;}
+    40%{left: 900px; top: 200px;}
+    60%{left: 0; top: 200px;}
+    80%{left: 0; top: 0;}
+    100%{left: -100px;}
+}
