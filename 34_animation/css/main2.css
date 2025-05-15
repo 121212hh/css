@@ -11,13 +11,18 @@
 }
 .box1{border: 1px solid blue;}
 .box2{border: 1px solid orange;}
-.box11,.box22{width: 100px;height: 100px;position: absolute;position: relative;}
+
+.box11,.box22{width: 100px;height: 100px;
+position: absolute;position: relative;}
+
 .box11{background: palevioletred;
-    animation: box11 3s ease-in-out infinite;
+animation: box11 3s ease-in-out infinite;
 }
+
 .box22{background: yellow;
 animation: box22 3s ease-in-out forwards;
 }
+
 @keyframes box11 {
     0%{left: 0; top: 0;}
     25%{left: 900px; top: 0;}
