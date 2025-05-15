@@ -9,8 +9,7 @@ li{list-style: none;}
 
 .section{
     width: 590px;
-    border: 1px solid #262626;
-    background: gold;
+    border: 1px solid #999;
     margin: auto;
     padding: 20px;
     box-sizing: border-box;
@@ -22,7 +21,6 @@ li{list-style: none;}
 }
 .section ul li{
     width: 103px;
-    background: gold;
 }
 .section ul li a{
     width: 100%;
