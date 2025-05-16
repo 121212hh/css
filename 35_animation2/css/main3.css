@@ -5,6 +5,7 @@ button{border: none; background: none; cursor: pointer;}
 
 section{
     width: 100%;
+    overflow: hidden;
 }
 .section .inner{
     width: 1135px;
@@ -16,15 +17,15 @@ section{
 }
 .text h2{
     font-size: 18px;
-    margin-top: 50px;
-    margin-bottom: 35px;
+    margin-top: 25px;
+    margin-bottom: 15px;
     font-weight: 800;
 }
 .text p{
     font-size: 14px;
     margin-bottom: 42px;
 }
-.imgbox{margin-top: 77px;
+.imgbox{margin-top: 60px;
     position: relative;
 }
 .imgbox img:first-child{
