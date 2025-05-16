@@ -32,16 +32,16 @@ section{
     position: absolute;
 }
 @keyframes ani1 {
-    0%{right: -1500px; top:-20px;}
-    100%{right: 10px; top: -20px;}
+    0%{right: -1500px; top:-50px;}
+    100%{right: 10px; top: -50px;}
 }
 .imgbox img:last-child{
     animation: ani2 2s ease-in-out forwards;
     position: absolute;
 }
 @keyframes ani2 {
-    0%{left: -1500px; top: 180px;}
-    100%{left: 10px; top: 180px;}
+    0%{left: -1500px; top: 130px;}
+    100%{left: 10px; top: 130px;}
 }
 /* .imgbox img{
     position: absolute;
