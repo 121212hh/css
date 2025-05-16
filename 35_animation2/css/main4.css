@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+*{padding: 0;margin: 0;}
+
+div{
+    width: 504px;
+    height: 304px;
+    overflow: hidden;
+    border: 2px solid #000;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+}
+div img:last-child{
+    position: absolute;
+    right: 0;
+    bottom: -100%;
+    animation: ani2 2s ease-in-out forwards  ;
+    animation-delay: 2s;
+}
+@keyframes ani2 {
+    0%{bottom: -100%;}
+    100%{right: 0px; bottom: 0px;}
+}
+
+
+
+
+div img:first-child{
+    position: absolute;
+    left: 57px;
+    bottom: 105px;
+    animation: ani1 2s ease-in-out forwards ;
+}
+@keyframes ani1 {
+    0%{bottom: 110%;}
+    100%{left: 57px; bottom: 105px;}
+}
