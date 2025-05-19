@@ -73,9 +73,8 @@ a{
     color: #fff;
     font-weight: 700;
     font-size: 19px;
-    letter-spacing: 2px;
+    letter-spacing: 2pxs;
     display: block;
-    border: 1px solid #fff;
     height: 100px;
 }
 .header .inner .gmb>li>a::after{
@@ -111,4 +110,11 @@ a{
 .header .inner .gmb>li>.depth2>li>a{
     color: #fff;
     font-size: 14px;
+}
+.last .depth2{
+    text-align: center;
+    width: 116px;
+}
+.header .inner .gmb>.last>.depth2{
+    width: 116px;
 }
