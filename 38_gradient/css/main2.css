@@ -1,0 +1,87 @@
+@charset "utf-8";
+body{
+    background: #333;
+}
+
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+button{background: none; border: none; cursor: pointer;}
+
+h1{
+    text-align: center;
+    color: #fff;
+    margin-top: 60px;
+}
+
+ul{
+    width: 644px;
+    margin: 100px auto 0;
+    display: flex;
+    gap: 15px;
+}
+
+ul li{
+    width: 204.6px;
+    height: 90px;
+
+}
+ul li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: linear-gradient(to bottom,#898e88,#191919);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    color: #fff;
+    box-shadow: 0 0 10px #fff;
+}
+ul li:hover a{
+    background-image: linear-gradient(to bottom,#FF9835,#CC0001);
+}
+.box{
+    width: 644px;
+    margin: 100px auto 0;
+    display: flex;
+    gap: 15px;
+}
+.box div{
+    width: 204.6px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom,#898e88,#191919);
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #fff;
+    cursor: pointer;
+}
+.box div a {
+    color: #fff;
+}
+.box div:hover{
+    background-image: linear-gradient(to bottom,#FF9835,#CC0001);
+}
+
+.btnw{
+    width: 644px;
+    margin: 100px auto 0;
+    display: flex;
+    gap: 15px;
+    display: flex;
+}
+.btnw button{
+    display: block;
+    width: 204.6px;
+    height: 90px;
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #fff;
+    background-image: linear-gradient(to bottom,#898e88,#191919);
+}
+.btnw button:hover{
+    background-image: linear-gradient(to bottom,#FF9835,#CC0001);
+}

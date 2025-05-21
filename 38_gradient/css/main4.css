@@ -1,0 +1,31 @@
+@charset "utf-8";
+body{
+
+}
+*{padding: 0;margin: 0;}
+a{text-decoration: none;}
+
+.div1{
+    width: 800px;
+    height: 600px;
+    border: 1px solid #000;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    background-image: linear-gradient(to bottom,#069500,#ffffff);
+    margin-bottom: 50px;
+    margin-top: 45px;
+}
+.div2{
+    width: 126px;
+    height: 41px;
+    border: 1px solid #000;
+    background-image: linear-gradient(to bottom,#A1D9FC,#176CBD);
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    line-height: 41px;
+    color: #000;
+    border-radius: 999px;
+}
+
