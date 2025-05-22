@@ -1,0 +1,47 @@
+@charset "utf-8";
+body{
+    font-family: "맑은 고딕","margun godthic",sans-serif;
+}
+
+*{margin: 0;padding: 0;}
+
+div{ 
+    border: 1px solid #000;
+    color: #000;
+    margin: auto;
+    margin-top: 50px;
+
+}
+.box1, .box2{
+    width: 712px;
+    height: 142px;
+    padding: 35px;
+    box-sizing: border-box;
+
+}
+.box3, .box4{
+    width: 712px;
+    height: 131px;
+    font-size: 12px;
+}
+.box1{
+    border-radius: 8px 26px 8px 26px;
+}
+.box2{border-radius: 8px;
+    box-shadow: 0px 0px 5px  #000;}
+h1{
+    text-align: center;
+    line-height: 131px;
+    font-size: 43px;
+}
+.box3{
+    background: #F2F2F2;
+    text-shadow: 3px 3px red;
+}
+.box4{
+    background: #000;
+    text-shadow: 3px 3px #fff;
+}
+span{
+    text-shadow: 0 0 6px  #fff;
+}
