@@ -1,0 +1,154 @@
+@charset "utf-8";
+body{
+    font-family: "맑은 고딕";
+}
+*{margin: 0;padding: 0;}
+.box{
+    width: 1400px;
+    height: 800px;
+    border: 11px solid #000;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.box:hover .clock{
+    animation-play-state: paused;
+}
+.box:hover .clock2{
+    animation-play-state: paused;
+}
+.box:hover .clock3{
+    animation-play-state: paused;
+}
+.box:hover .clock4{
+    animation-play-state: paused;
+}
+.box .clock{
+    position: absolute;
+    left: 50%;
+    margin-left: -82.5px;
+    top: 0;
+    transform: translateX(-50%);
+    transform: rotate(45deg);
+    transform-origin: center top;
+    animation: clock_ani 1s ease-in-out forwards infinite;
+}
+@keyframes clock_ani {
+    0%{transform: rotate(45deg);}
+    50%{transform: rotate(-45deg);}
+    100%{transform: rotate(45deg);}
+}
+.box .clock .line{
+    width: 8px;
+    height: 180px;
+    background: #000;
+    margin: auto;
+    margin-top: -14px;
+}
+.box .clock .circle{
+    width: 165px;
+    height: 165px;
+    background: red url(../images/1.jpg)no-repeat 80%;
+    background-size: cover;
+    border-radius: 100%;
+    margin: auto;
+    border: 5px solid #000;
+}
+.box h3{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 42px;
+}
+.box .clock2{
+    position: absolute;
+    right: 0;
+    margin-right: -82.5px;
+    top: 50%;
+    transform: rotate(135deg);
+    transform-origin: center top;
+    animation: clock2_ani 1s ease-in-out forwards infinite;
+}
+@keyframes clock2_ani {
+    0%{transform: rotate(135deg);}
+    50%{transform: rotate(45deg);}
+    100%{transform: rotate(135deg);}
+}
+
+.box .clock2 .line{
+    width: 8px;
+    height: 180px;
+    background: #000;
+    margin: auto;
+    margin-top: -14px;
+}
+.box .clock2 .circle{
+    width: 165px;
+    height: 165px;
+    background: red url(../images/1.jpg)no-repeat 80%;
+    background-size: cover;
+    border-radius: 100%;
+    margin: auto;
+    border: 5px solid #000;
+}
+.box .clock3{
+    position: absolute;
+    left: 50%;
+    margin-left: -82.5px;
+    bottom: -340px;
+    transform: translatey(-225deg);
+    transform-origin: center top;
+    animation: clock3_ani 1s ease-in-out forwards infinite;
+}
+@keyframes clock3_ani {
+    0%{transform: rotate(-225deg);}
+    50%{transform: rotate(-135deg);}
+    100%{transform: rotate(-225deg);}
+}
+.box .clock3 .line{
+    width: 8px;
+    height: 180px;
+    background: #000;
+    margin: auto;
+    margin-top: -14px;
+}
+.box .clock3 .circle{
+    width: 165px;
+    height: 165px;
+    background: red url(../images/1.jpg)no-repeat 80%;
+    background-size: cover;
+    border-radius: 100%;
+    margin: auto;
+    border: 5px solid #000;
+}
+.box .clock4{
+    position: absolute;
+    top: 50%;
+    margin-left: -82.5px;
+    left: 0;
+    transform: translatey(-135deg);
+    transform-origin: center top;
+    animation: clock4_ani 1s ease-in-out forwards infinite;
+}
+@keyframes clock4_ani {
+    0%{transform: rotate(-135deg);}
+    50%{transform: rotate(-45deg);}
+    100%{transform: rotate(-135deg);}
+}
+.box .clock4 .line{
+    width: 8px;
+    height: 180px;
+    background: #000;
+    margin: auto;
+    margin-top: -14px;
+}
+.box .clock4 .circle{
+    width: 165px;
+    height: 165px;
+    background: red url(../images/1.jpg)no-repeat 80%;
+    background-size: cover;
+    border-radius: 100%;
+    margin: auto;
+    border: 5px solid #000;
+}
+
