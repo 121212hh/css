@@ -131,7 +131,7 @@ white-space: nowrap;
 overflow: hidden;
 text-overflow: ellipsis;
 }
-.section .inner .right .list a span{
+.section .inner .right .list li span{
     color: #999;
 }
 .section .inner .right .list a::before{
