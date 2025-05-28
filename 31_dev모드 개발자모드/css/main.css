@@ -21,6 +21,7 @@ a{text-decoration: none;}
     padding: 0 16px;
     text-indent: 32px;
     outline: none;
+    box-sizing: border-box;
 }
 .search input ::placeholder{
     font-size: 15px;
