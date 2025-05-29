@@ -59,7 +59,6 @@ a{text-decoration: none;}
     flex-wrap: wrap;
     gap: 16px;
     align-items: first baseline;
-    border: 1px solid red;
 }
 .keyword .btnwrap li{
     /* margin-right: 40px; */
