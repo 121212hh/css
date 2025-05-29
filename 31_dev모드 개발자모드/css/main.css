@@ -57,9 +57,12 @@ a{text-decoration: none;}
 .keyword .btnwrap{
     display: flex;
     flex-wrap: wrap;
+    gap: 40px;
+align-items: first baseline;
+    border: 1px solid red;
 }
 .keyword .btnwrap li{
-    margin-right: 40px;
+    /* margin-right: 40px; */
 }
 
 
@@ -73,7 +76,8 @@ a{text-decoration: none;}
 }
 .keyword .btnwrap li:nth-child(5) a,
 .keyword .btnwrap li:nth-child(6) a{
-    display: block;margin-top: 16px;
+    display: block;
+    margin-top: 16px;
 }
 /* 탭바 */
 ul.tabbar{
@@ -95,4 +99,26 @@ ul.tabbar a{
 }
 ul.tabbar li:first-child a{
     color: #235BF5;
+}
+/* 상품목록 */
+.new ul.list{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.new ul.list li{
+    width: 48%;
+
+}
+.new ul.list li a{
+    display: block;
+    width: 100%;
+    color: #000;
+}
+.new ul.list li a .imgbox{
+    width: 100%;
+}
+.new ul.list li a .imgbox img{
+    width: 100%;
 }
