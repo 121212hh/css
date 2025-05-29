@@ -57,8 +57,8 @@ a{text-decoration: none;}
 .keyword .btnwrap{
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
-align-items: first baseline;
+    gap: 16px;
+    align-items: first baseline;
     border: 1px solid red;
 }
 .keyword .btnwrap li{
@@ -77,7 +77,6 @@ align-items: first baseline;
 .keyword .btnwrap li:nth-child(5) a,
 .keyword .btnwrap li:nth-child(6) a{
     display: block;
-    margin-top: 16px;
 }
 /* 탭바 */
 ul.tabbar{
@@ -121,4 +120,7 @@ ul.tabbar li:first-child a{
 }
 .new ul.list li a .imgbox img{
     width: 100%;
+}
+.new h2{
+    margin-bottom: 16px;
 }
