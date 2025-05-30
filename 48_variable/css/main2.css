@@ -1,0 +1,72 @@
+@charset "utf-8";
+body{
+    font-family: "맑은 고딕","margungothic",sans-serif;
+}
+*{padding: 0;margin: 0;box-sizing: border-box;}
+li{list-style: none;}
+a{text-decoration: none;}
+button{background: none;border: none;cursor: pointer;}
+/* 변수 선언*/
+/* --변수명:값 */
+/* 전역변수->html 문서 어디에나 사용하는 변수 */
+/* 지역변수->해당요소 안에서만 사용하는 변수 */
+/* 전역변수 선언 */
+:root{
+    /* 변수선언 */
+    --blue:#ff8c00;
+    --white:#fff;
+    --bg:#ededed;
+    --padding: 32;
+}
+
+
+
+
+/* 변수로적용 */
+/* var(적용할변수명 */
+
+section{
+    width: 100%;
+    padding: 35px 0;
+    /* 배경색 변수로 적용 */
+    background: var(--bg);
+    text-align: center;
+}
+section h2{
+    text-align: center;
+    color: var(--blue);
+    /* 지역변수 */
+    --tfs:24px;
+}
+section ul{
+    width: 780px;
+    margin: 35px auto;
+    display: flex;
+    gap: 15px;
+}
+section ul li{
+    width: 144px;
+    border: 1px solid var(--blue);
+    text-align: center;
+}
+section ul li a{
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    background: var(--white);
+    color: var(--blue);
+}
+section button{
+    display: inline-block;
+    width: 105px;
+    height: 35px;
+    padding: var(--padding);
+    background: var(--blue);
+    color: var(--white);
+    border-radius: 999px;
+}
+.section h2{
+    color: var(--blue);
+    text-align: center;
+    font-size: var(--tfs);
+}
