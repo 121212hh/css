@@ -1,0 +1,78 @@
+@charset "utf-8";
+body{
+    font-family:"맑은 고딕",sans-serif;
+    background: #D3EDFA;
+}
+
+*{padding: 0; margin: 0;}
+
+:root{
+    --fontmaincolor:#111;
+    --fontsubcolor:#848484;
+    --redbox:#E94C4C;
+    --fonttit:26px;
+    --fontsub:20px;
+    --borderedge:12px;
+    --bordercolor:#ccc;
+}
+.wrap{
+    width: 658px;
+    height: 441px;
+    display: flex;
+    gap: 20px;
+    margin: 100px auto;
+}
+.wrap .box{
+    width: 318px;
+    height: 100%;
+    border: 1px solid var(--bordercolor);
+    border-radius: var(--borderedge);
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+}
+.wrap .box .imgbox{
+    width: 100%;
+    height: 240px;
+    margin-bottom: 25px;
+}
+.wrap .box .imgbox img{
+    width: 100%;
+    height: 100%;
+}
+.wrap .box .textbox{
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.wrap .box .textbox h2{
+    color: var(--fontmaincolor);
+    font-size: var(--fonttit);
+    margin-bottom: 24px;
+}
+.wrap .box .textbox p{
+    color: var(--fontsubcolor);
+    font-size: var(--fontsub);
+    line-height: 32px;
+}
+.wrap .box .redbox{
+    width: 132px;
+    height: 34px;
+    background: var(--redbox);
+    border-radius: 4px;
+    position: absolute;
+    left: 20px;
+    top:  224px;
+    text-align: center;
+    line-height: 34px;
+}
+.wrap .box .redbox h3{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+
+
+
