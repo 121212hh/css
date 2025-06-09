@@ -139,8 +139,7 @@ li{list-style: none;}
         align-items: center;
     }
     .wrap main aside a{
-        width: 275px;
-        height: 183px;
+        width: 30%;
     }
 
 }
