@@ -1,0 +1,30 @@
+@media ( min-width:320px ) and ( max-width:767px ){
+    header .inner nav, 
+    header .inner .lang
+    {display: none;}
+
+    header{
+        width: 100%;
+        height: 70px;
+        padding: 0 15px;
+    }
+    header .inner{
+        width: 100%;
+        background: gold;
+        display: flex;
+        align-items: center;
+    }
+    header .inner .m_menu{
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+      header .inner .m_menu i{
+        font-size: 14px;
+      }
+
+
+}
+
