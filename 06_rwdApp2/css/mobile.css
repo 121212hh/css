@@ -1,0 +1,115 @@
+@media ( min-width:320px ) and ( max-width:767px ) {
+    header{
+        height: 50px;
+    }
+    header .inner{
+        width: 100%;
+        height: 50px;
+    }
+    header .inner  nav,
+    header .inner .sns{
+        display: none;
+    }
+    header .inner h1{
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    /* pc기기에서 숨겨던 햄버거버튼을 보이게함  */
+    .m_btn{
+        display:block;
+        font-size:18px;
+        color:#333;
+        padding-left: 16px;
+    }
+
+    main .visual{
+        height: 420px;
+    }
+    main .visual .title h2{
+        font-size: 36px;
+        margin-bottom: 18px;
+    }
+    main .visual .title p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    main figure.first{
+        padding: 30px 0;
+    }
+    main figure.first p{
+        line-height: 16px;
+        font-size: 14px;
+    }
+    /* 메인 work 영역 */
+    .work{
+    padding: 90px 20px 50px 20px;
+    }
+    .work .inner{
+        width: 100%;
+    }
+    .work .inner h2,
+    main .news .inner h2{
+        font-size: 24px;
+    }
+    .work .inner p,
+    main .news .inner p{
+        font-size: 14px;
+    }
+        .work .inner ul.list{
+            flex-direction: column;
+        }
+        .work .inner ul.list li{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+                .work .inner ul.list li:last-child{
+                    margin-bottom: 0;
+                }
+
+
+    /* skill */
+    .skill{
+        padding: 0 20px;
+    }
+    .skill .inner{
+        width: 100%;
+    }
+    .skill .inner ul.list li{
+        width: 100%;
+    }
+        .skill .inner ul.list li a p{
+            text-align: justify;
+        }
+
+        /* 메인영역이미지설명2 */
+        .main figure.second{
+            height: 150px;
+            background-size: cover;
+            margin-top: 100px;
+        }
+                .main figure.second p{
+                    font-size: 12px;
+                }
+
+
+    /* 메인 뉴스 영역 */
+    main .news{
+        margin-top: 100px;
+        padding: 0 20px;
+    }
+    main .news .inner{
+        width: 100%;
+    }
+    main .news .inner ul.list{
+        flex-direction: column;
+    }
+    main .news .inner ul.list li{
+        width: 100%;
+    }
+
+    .today p{
+        font-size: 16px;
+    }
+
+}
