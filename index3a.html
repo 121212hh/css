@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num=prompt("번호입력")
+        let name=prompt("이름입력")
+        let kor=prompt("국어점수입력")
+        let eng=prompt("영어점수")
+        let mat=prompt("수학점수")
+        let all=Number(kor)+Number(eng)+Number(mat)
+        let avg=Number(all)/3
+
+        document.write("번호:"+num+"번"+"<br>");
+        document.write("이름:"+name+"님"+"<br>");
+        document.write("국어점수:"+kor+"점"+"<br>");
+        document.write("영어점수:"+eng+"점"+"<br>");
+        document.write("수학점수:"+mat+"점"+"<br>");
+        document.write("총점:"+all+"점"+"<br>");
+        document.write("평균:"+avg+"점"+"<br>");
+
+    </script>
+</body>
+</html>
