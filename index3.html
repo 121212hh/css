@@ -7,15 +7,22 @@
 </head>
 <body>
     <script>
-        let esepresso=10;
-        let latte=180;
-        let mocha=230;
-        let mochacream=290;
+        let num=prompt("번호입력")
+        let name=prompt("이름입력")
+        let kor=prompt("국어점수입력")
+        let eng=prompt("영어점수")
+        let mat=prompt("수학점수")
+        let all=Number(kor)+Number(eng)+Number(mat)
+        let avg=Number(all)/3
 
-        document.write("에스프레소 칼로리="+esepresso+"<br>");
-        document.write("라떼 칼로리="+latte+"<br>");
-        document.write("모카 칼로리="+mocha+"<br>");
-        document.write("모카(휘핑크림) 칼로리="+mochacream+"<br>");
+        document.write("번호:"+num+"번"+"<br>");
+        document.write("이름:"+name+"님"+"<br>");
+        document.write("국어점수:"+kor+"점"+"<br>");
+        document.write("영어점수:"+eng+"점"+"<br>");
+        document.write("수학점수:"+mat+"점"+"<br>");
+        document.write("총점:"+all+"점"+"<br>");
+        document.write("평균:"+avg+"점"+"<br>");
+
     </script>
 </body>
 </html>
