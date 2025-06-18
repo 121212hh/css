@@ -1,0 +1,99 @@
+@charset "uft-8";
+body{
+    font-family: "맑은 고딕","margun gohthic",sans-serif;
+}
+*{padding: 0;margin: 0;box-sizing: border-box;}
+a{text-decoration: none;}
+li{list-style: none;}
+button{border: none;background: none;cursor: pointer;}
+img{display: block;}
+header{
+    width: 100%;
+    height: 111px;
+    border-bottom: 1px solid #ff6400;
+}
+header .inner{
+    width: 1140px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+header .inner h1 a img{
+    width: 186px;
+    height: 47px;
+}
+header .inner ul{
+    display: flex;
+    gap: 22px;
+}
+header .inner ul li {
+    
+}
+header .inner ul li a{
+    color: #111;
+    display: block;
+    height: 65px;
+    line-height: 65px;
+}
+main{
+    width: 100%;
+}
+main .slide{
+    width: 100%;
+}
+main .slide a{
+    display: block;
+    width: 100%;
+    height: 600px;
+}
+main .slide .div1 a{
+    background: url(../image/20231214092256522898.jpg)no-repeat center top;
+}
+main .slide .div2 a{
+    background: url(../image/20231214092231893897.jpg)no-repeat center top;
+}
+main .slide .div3 a{
+    background: url(../image/20231214092418147899.jpg)no-repeat center top;
+}
+main .slide .div4 a{
+    background: url(../image/20231214092606468902.jpg)no-repeat center top;
+}
+main .slide .div5 a{
+    background: url(../image/20240116133051904008.jpg)no-repeat center top;
+}
+main .slide .div6 a{
+    background: url(../image/20240425131236979036.jpg)no-repeat center top;
+}
+
+/* 좌우버튼 교체 */
+    /* 이전버튼 */
+    main .slide .slick-prev{
+        position: absolute;
+        left: 50%;
+        margin-left: -700px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
+        width: 18px;
+        height: 30px;
+        background: url(../image/btn_slide_prev_newllll.png)no-repeat;
+        text-indent: -99999px;
+    }
+    /* 다음버튼 */
+    main .slide .slick-next{
+        position: absolute;
+        right: 50%;
+        margin-right: -700px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
+        width: 18px;
+        height: 30px;
+        background: url(../image/btn_slide_next_newrrr.png)no-repeat;
+        text-indent: -99999px;
+    }
+
+
+
