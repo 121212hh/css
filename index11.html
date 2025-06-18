@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let eng=""
+        let month=prompt("영어로 알고 싶은 월을 입력해주세요")
+
+        switch(month){
+            case '1':
+            case '3':
+            case '5':
+            case '7':
+            case '8':
+            case '10':
+            case '12':
+                eng="31일"
+                alert("입력하신"+month+"월은 일수가"+eng+"입니다")
+            break;
+            case '4':
+            case '6':
+            case '9':
+            case '11':
+                eng="30일"
+                alert("입력하신"+month+"월은 일수가"+eng+"입니다")
+            break;
+            case '2':
+                eng="29일"
+                alert("입력하신"+month+"월은 일수가"+eng+"입니다")
+            break;
+        }
+    </script>
+</body>
+</html>
