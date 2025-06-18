@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>다중if응용</title>
+</head>
+<body>
+    <script>
+        let name=prompt("이름")
+
+        let kor=prompt("국어")
+        let eng=prompt("영어")
+        let mat=prompt("수학")
+        let com=prompt("컴퓨터")
+        let rem="";
+        let abc="";
+        let total=Number(kor)+Number(mat)+Number(eng)+Number(com)
+
+        let avg=(total/4)
+
+        if(total>=90){
+            rem="수"
+        }else if(total>=80){
+            rem="우"
+        }else if(total>=70){
+            rem="미"
+        }else if(total>=60){
+            rem="양"
+        }else{
+            rem="가"
+        }
+
+        if(avg>=95){
+            abc="A+"
+        }else if(avg>=90){
+            abc="A"
+        }else if(avg>=85){
+            abc="B+"
+        }else if(avg>=80){
+            abc="B"
+        }else if(avg>=75){
+            abc="C+"
+        }else if(avg>=70){
+            abc="C"
+        }else if(avg>=65){
+            abc="D+"
+        }else if(avg>=60){
+            abc="D"
+        }else{
+            abc="F"
+        }
+
+        document.write("이름:"+name+"<br>")
+        document.write("국어점수:"+kor+"<br>")
+        document.write("영어점수:"+eng+"<br>")
+        document.write("수학점수:"+mat+"<br>")
+        document.write("컴퓨터점수:"+com+"<br>")
+        document.write("총점:"+total+"<br>")
+        document.write("평균:"+avg+"<br>")
+        document.write("평점:"+rem+"<br>")
+        document.write("학점:"+abc+"<br>")
+
+
+    </script>
+</body>
+</html>
