@@ -26,16 +26,17 @@ header .inner h1 a img{
 }
 header .inner ul{
     display: flex;
-    gap: 22px;
 }
 header .inner ul li {
-    
+    margin-left: 84px;
 }
 header .inner ul li a{
     color: #111;
     display: block;
     height: 65px;
     line-height: 65px;
+    font-size: 18px;
+    font-weight: 500;
 }
 main{
     width: 100%;

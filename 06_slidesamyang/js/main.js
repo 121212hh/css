@@ -1,6 +1,7 @@
 $(function(){
     $('.slide').slick({
-    autoplay:true
+    autoplay:true,
+    fade:true
     });
     
 })
