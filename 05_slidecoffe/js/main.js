@@ -1,7 +1,8 @@
 $(function(){
     $('.slider').slick({
     autoplay:true,
-        fade:true
+        fade:true,
+        dots:true
     });
     
 })
