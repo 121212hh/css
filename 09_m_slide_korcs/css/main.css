@@ -1,0 +1,85 @@
+@charset "uft-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+body{
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+button{border: none; background: none; cursor: pointer;}
+
+.header{
+    width: 100%;
+    height: 59px;
+    background: #fff;
+    position: relative;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.header h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -22.5px;
+    margin-left: -72.5px;
+
+}
+
+.header h1 a{
+    width: 145px;
+    height: 45px;
+    background: url(../images/logo_mo.jpg) no-repeat;
+    background-size: 145px 45px;
+    display: block;
+    text-indent: -99999px;
+}
+.header .menu{
+    width: 44px;
+    height: 48.5px;
+    background: url(../images/btn_memu.jpg)no-repeat;
+    text-indent: -99999px;
+    background-size: 44px 48.5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 5px;
+}
+
+.header .search{
+    width: 44px;
+    height: 48.5px;
+    background: url(../images/icon_search_mo.jpg)no-repeat;
+    text-indent: -99999px;
+    background-size: 44px 48.5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 5px;
+}
+/* 메인 */
+.main{
+    width: 100%;
+}
+.main .swiper{
+    width: 100%;
+}
+.main .swiper .swiper-wrapper .swiper-slide img{
+    width: 100%;
+}
+.main .swiper .swiper-pagination{
+    width: 48px;
+    height: 22px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 999px;
+    left: unset;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 19px;
+}
+.main .swiper .swiper-pagination .swiper-pagination-total{
+    color: rgba(255,255,255,0.3);
+}
