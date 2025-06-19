@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<span>태어난연도</span>
+    <script>
+        
+            let year="<select>"
+            for(let r=2025;r>=1900;r--){
+                year=year+"<option>"+r+"년"+"</option>"
+            }
+            year=year+"</select>"
+            document.write(year)
+            </script>
+            <span>태어난월</span>
+<script>
+                let mon="<select>"
+            for(let e=1;e<=12;e++){
+                mon=mon+"<option>"+e+"월"+"</option>"
+            }
+            mon=mon+"</select>"
+            document.write(mon)
+            </script>
+            <span>태어난일</span>
+<script>
+            let day="<select>"
+            for(let i=1;i<=31;i++){
+                day=day+"<option>"+i+"일"+"</option>"
+            }
+            day=day+"</select>"
+            document.write(day)
+
+
+
+
+    </script>
+</body>
+</html>
