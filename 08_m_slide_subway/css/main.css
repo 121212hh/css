@@ -73,6 +73,9 @@ li{list-style: none;}
     width: 100%;
 
 }
+.main .swiper .swiper-wrapper img{
+    width: 100%;
+}
 .main .swiper .swiper-pagination{
     width: 48px;
     height: 22px;
