@@ -7,22 +7,20 @@
 </head>
 <body>
     <script>
-        let num=prompt("번호입력")
-        let name=prompt("이름입력")
-        let kor=prompt("국어점수입력")
-        let eng=prompt("영어점수")
-        let mat=prompt("수학점수")
-        let all=Number(kor)+Number(eng)+Number(mat)
-        let avg=Number(all)/3
+        let me=["태연","써니","티파니","효연","유리","수영","윤아","서현"];
+        document.write("소녀시대 멤버는 "+me[0]+"입니다"+"<br>");
+        document.write("소녀시대 멤버는 "+me[1]+"입니다"+"<br>");
+        document.write("소녀시대 멤버는 "+me[2]+"입니다"+"<br>");
+        document.write("소녀시대 멤버는 "+me[3]+"입니다"+"<br>");
+        document.write("소녀시대 멤버는 "+me[4]+"입니다"+"<br>");
+        document.write("소녀시대 멤버는 "+me[5]+"입니다"+"<br>");
+        document.write("소녀시대 멤버는 "+me[6]+"입니다"+"<br>");
+        document.write("소녀시대 멤버는 "+me[7]+"입니다"+"<br>");
+        document.write("<hr>");
 
-        document.write("번호:"+num+"번"+"<br>");
-        document.write("이름:"+name+"님"+"<br>");
-        document.write("국어점수:"+kor+"점"+"<br>");
-        document.write("영어점수:"+eng+"점"+"<br>");
-        document.write("수학점수:"+mat+"점"+"<br>");
-        document.write("총점:"+all+"점"+"<br>");
-        document.write("평균:"+avg+"점"+"<br>");
-
+        for(let i=0;i<=7;i++){
+            document.write("소녀시대 멤버는 "+me[i]+"입니다."+"<br>")
+        };
     </script>
 </body>
 </html>
