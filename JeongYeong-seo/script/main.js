@@ -14,8 +14,21 @@ $(function(){
         $('footer .fam button').click(function(){
         $('footer .fam ul').toggle()
     })
-            $('.gnb').mouseenter(function(){
-        $('.gnb ul.depth2').toggle()
+        $('.gnb').mouseenter(function(){
+        $('.gnb ul.depth2').show()
+        $('.menucover').show()
+    })
+        $('.menucover').mouseenter(function(){
+        $('.gnb ul.depth2').show()
+        $('.menucover').show()
+    })
+        $('.gnb').mouseleave(function(){
+        $('.gnb ul.depth2').hide()
+        $('.menucover').hide()
+    })
+        $('.menucover').mouseleave(function(){
+        $('.gnb ul.depth2').hide()
+        $('.menucover').hide()
     })
 
 

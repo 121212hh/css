@@ -104,10 +104,21 @@ header ul.gnb li ul.depth2 li:hover a{
     color: #ff9800;
     background: #fff;
 }
+
 main{
     width: 1200px;
     height: 300px;
     margin: auto;
+    position: relative;
+}
+.menucover{
+    position: absolute;
+    width: 1200px;
+    height: 150px;
+    background: #ff9800;
+    left: 0;
+    top: 0;
+    display: none;
 }
 .contents{
     width: 1200px;
