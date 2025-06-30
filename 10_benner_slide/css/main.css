@@ -90,19 +90,11 @@ section .inner .product .list .slick-dots-active li  button{
 
     left: 50%;
     bottom: 20px;
-    background: url(../images/btn_rolling_s_on.png)no-repeat;
-    text-indent: -99999px;
-}
-.btn_on{
-    width: 10px;
-    height: 10px;
-    position: absolute;
-    margin-left: 36px;
-
-    left: 50%;
-    bottom: 20px;
     background: url(../images/btn_rolling_s_stop.png)no-repeat;
     text-indent: -99999px;
+}
+.btn_off.on{
+background: url(../images/btn_rolling_s_play.png)no-repeat;
 }
 section .inner .left .title{
     width: 100%;
