@@ -1,0 +1,50 @@
+@charset "utf-8";
+body{
+    font-family: sans-serif;
+}
+*{padding: 0;margin: 0;box-sizing: border-box;}
+a{text-decoration: none;}
+li{list-style: none;}
+
+.inner{
+    width: 100%;
+}
+.menu ul{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.menu ul li a{
+    display: block;
+    width: 170px;
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+ul.product{
+
+    width: 100%;
+    display: flex;
+}
+
+.text{
+    padding: 18px;
+}
+.text h3,
+.text p,
+.text h4{
+    text-align: left;
+}
+.text h3{
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+.text p{
+    margin-bottom: 28px;
+}
+
+
