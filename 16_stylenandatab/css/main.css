@@ -43,8 +43,12 @@ ul.product{
     text-transform: uppercase;
     margin-bottom: 32px;
 }
+.text{
+    color: #000;
+}
 .text p{
     margin-bottom: 28px;
+    color: #666;
 }
 
 
