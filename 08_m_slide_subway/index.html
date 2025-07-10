@@ -6,16 +6,161 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./js/main.js"></script>
+
 
 
 </head>
 
 <body>
+    <div class="cover"></div>
+    <!-- 모바일메뉴 -->
+    <div class="m_slidewrap">
+        <div class="m_login">
+            <div class="m_header">
+                <h1>
+                    <a href="#">서브웨이모바일로고</a>
+                </h1>
+                <ul>
+                    <li><a href="#">설정</a></li>
+                    <li class="m_close"><a href="#">닫기</a></li>
+
+                </ul>
+            </div>
+            <p>
+                로그인 해주세요<br>
+                아직 회원이 아니신가요?
+            </p>
+            <ul class="login_btn">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+            <button class="nomember">비회원 주문조회</button>
+        </div>
+        <div class="quick_menu">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="./image/quick_01_fast.png" alt="quick">
+                        <h4>FAST-SUB</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./image/quick_02_home.png" alt="quick2">
+                        <h4>HOME-SUB</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./image/quick_03_group.png" alt="quick">
+                        <h4>단체주문</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./image/quick_04_subcard.png" alt="quick">
+                        <h4>단체주문</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./image/quick_05_gift.png" alt="quick">
+                        <h4>단체주문</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./image/quick_06_coupon.png" alt="quick">
+                        <h4>단체주문</h4>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="m_gnb">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="./image/icon_app_gnb_menu.png" alt="메뉴">
+                        <h3>메뉴소개</h3>
+                    </a>
+                    <ul class="depth">
+                        <li><a href="#">샌드위치</a></li>
+                        <li><a href="#">랩 기타</a></li>
+                        <li><a href="#">샐러드</a></li>
+                        <li><a href="#">아침메뉴</a></li>
+                        <li><a href="#">스마일 썹</a></li>
+                        <li><a href="#">단체메뉴</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./image/icon_app_gnb_howto.png" alt="이용방법">
+                        <h3>이용방법</h3>
+                    </a>
+                    <ul class="depth">
+                        <li><a href="#">써브웨이 이용방법</a></li>
+                        <li><a href="#">단체메뉴 이용방법</a></li>
+                        <li><a href="#">신선한 재료 소개</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./image/icon_app_gnb_news.png" alt="뉴스">
+                        <h3>새소식</h3>
+                    </a>
+                    <ul class="depth">
+                        <li><a href="#">이벤트 프로모션</a></li>
+                        <li><a href="#">뉴스 공지사항</a></li>
+                        <li><a href="#">광고영상</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./image/icon_app_gnb_subway.png" alt="서브웨이">
+                        <h3>써브웨이</h3>
+                    </a>
+                    <ul class="depth">
+                        <li><a href="#">써브웨이 역사</a></li>
+                        <li><a href="#">써브웨이 약속</a></li>
+                        <li><a href="#">매장찾기</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./image/icon_app_gnb_store.png" alt="가맹점">
+                        <h3>가맹점</h3>
+                    </a>
+                    <ul class="depth">
+                        <li><a href="#">써브웨이 프랜차이즈</a></li>
+                        <li><a href="#">가맹관련 FAQ</a></li>
+                        <li><a href="#">지사안내</a></li>
+                        <li><a href="#">사업설명회</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./image/icon_app_gnb_customer.png" alt="문의">
+                        <h3>고객센터</h3>
+                    </a>
+                    <ul class="depth">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">1:1문의</a></li>
+                        <li><a href="#">미사용 모바일 상품권 재발급 요청서</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
     <div class="header">
+        <button class="m_btn">전체메뉴</button>
         <h1>
             <a href="index.html">서브웨이</a>
         </h1>
@@ -66,6 +211,82 @@
             </li>
         </div>
     </div>
+
+    <!-- 지도 -->
+    <!-- 배너슬라이드 -->
+    <div class="banner">
+        <div class="tit">
+            <h2>추천메뉴</h2>
+            <a href="#"><img src="./image/right_arrow.png" alt="더보기"></a>
+        </div>
+        <ul class="banner_slide">
+            <li>
+                <a href="#">
+                    <div class="imgbox">
+                        <img src="./image/Steak-&-Cheese_20211231095455613.png" alt="이미지">
+                    </div>
+                    <div class="txt">
+                        <h3>스테이크&치즈</h3>
+                        <p>STAKE & CHEESE</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="imgbox">
+                        <img src="./image/Italian_B.M.T_20211231094910899.png" alt="이미지">
+                    </div>
+                    <div class="txt">
+                        <h3>이탈리안 B.M.T</h3>
+                        <p>ITALIAN B.M.T</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="imgbox">
+                        <img src="./image/Roasted-Chicken_20211231095032718.png" alt="이미지">
+                    </div>
+                    <div class="txt">
+                        <h3>로스트치킨</h3>
+                        <p>ROASTED CHICEN</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- 서브카드 -->
+    <div class="subcard">
+        <ul>
+            <li>
+                <a href="#">
+                    <div class="imgbox">
+                        <img src="./image/icon_charge.png" alt="충전하기">
+                    </div>
+                    <h3>충전하기</h3>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="imgbox">
+                        <img src="./image/icon_gift.png" alt="선물하기">
+                    </div>
+                    <h3>선물하기</h3>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
