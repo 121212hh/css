@@ -219,6 +219,14 @@ li{list-style: none;}
 .m_gnb>ul>li>.depth li{
     text-indent: 70px;
 }
+.m_gnb>ul>li>.depth li a.on::after{
+    content: "";
+    border: 2px solid #009922;
+    border-top: none;
+    border-left: none;
+    transform: rotate(225deg);
+    transition: all;
+}
 .m_gnb>ul>li>.depth li a{
     color: #292929;
     font-size: 14px;
@@ -365,7 +373,7 @@ li{list-style: none;}
     background: url(../image/img_homesub2.png)no-repeat 90% 90%;
 }
 
-.banner ,.suncard{
+.banner ,.subcard{
   width: 100%;
     background: #f6f6f6;
   padding: 0 15px;
@@ -403,6 +411,7 @@ li{list-style: none;}
     height: 100%;
     background: #fff;
     border-radius: 12px;
+
 }
 .banner .banner_slide li a .imgbox img{
     width: 100%;
@@ -448,19 +457,19 @@ li{list-style: none;}
     font-size: 18px;
     font-weight: bold;
 }
-.subcard ul{
+.subcard>ul{
     width: 100%;
     display: flex;
     margin-top: 15px;
     gap: 2%;
 }
-.subcard ul li{
+.subcard>ul>li{
     width: 48%;
     height: 100px;
     border-radius: 12px;
     background: #fff;
 }
-.subcard ul li a{
+.subcard>ul>li>a{
     display: block;
     width: 100%;
     height: 100%;
@@ -469,11 +478,92 @@ li{list-style: none;}
     justify-content: center;
     align-items: center;
 }
-.subcard ul li a .imgbox{
+.subcard>ul>li>a .imgbox{
     width: 60px;
     height: 40px;
 }
-.subcard ul li a .imgbox img{
+.subcard>ul>li>a .imgbox img{
     width: 100%;
     height: 100%;
+}
+/* 탭바 */
+.tabbar{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+}
+.tabbar .tabnav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: url(../image/navi_bg.png)no-repeat;
+    background-size: cover;
+}
+.tabbar .tabnav .left_icon,
+.tabbar .tabnav .ri_icon{
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabbar .tabnav .left_icon li,
+.tabbar .tabnav .ri_icon li{
+    width: 18vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.tabbar .tabnav .left_icon li a,
+.tabbar .tabnav .ri_icon li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.tabbar .tabnav .left_icon li a span,
+.tabbar .tabnav .ri_icon li a span{
+    font-size: 12px;
+    color: #d3d3d3;
+}
+.tabbar .tabnav .left_icon li a svg path,
+.tabbar .tabnav .ri_icon li a svg path{
+    fill: #d3d3d3;
+    stroke: #d3d3d3;
+}
+.tabbar .btn_order{
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.tabbar .btn_order img{
+    width: 28px;
+}
+.tabbar .tabnav .left_icon li.on a svg path,
+.tabbar .tabnav .ri_icon li.on a svg path{
+    stroke: #009223;
+    fill: #009223;
+}
+.tabbar .tabnav .left_icon li.on a svg,
+.tabbar .tabnav .ri_icon li.on a svg{
+    color: #009223;
+
+}
+.tabbar .tabnav .left_icon li.on a span,
+.tabbar .tabnav .ri_icon li.on a span{
+    color: #009223;
+
 }

@@ -33,6 +33,8 @@ $('.banner_slide').slick({
 });
 // 모바일메뉴
 $(".m_gnb>ul>li>a").click(function(){
+  $("m_gnb>ul>li>a").removeClass('on')
+  $(this).toggleClass()
   $(this).next().slideToggle().parent().siblings().find(".depth").slideUp();
 })
 
@@ -48,4 +50,32 @@ $(".header .m_btn").click(function(){
 $(".m_close").click(function(){
     $(".cover").fadeOut()
   $(".m_slidewrap").animate({"left":'-100%'},300)
+})
+
+// 탭바
+$("ul.left_icon li").click(function(){
+  $("ul.left_icon li").removeClass('on')
+  $("ul.ri_icon li").removeClass('on')
+
+  $(this).addClass('on')
+  
+})
+$("ul.ri_icon li").click(function(){
+  $("ul.ri_icon li").removeClass('on')
+  $("ul.ri_icon li").removeClass('on')
+
+  $(this).addClass('on')
+})
+$("ul.left_icon li span").click(function(){
+  $("ul.left_icon span").removeClass('on')
+  $("ul.ri_icon li").removeClass('on')
+
+  $(this).addClass('on')
+  
+})
+$("ul.ri_icon li").click(function(){
+  $("ul.ri_icon span").removeClass('on')
+  $("ul.ri_icon span").removeClass('on')
+
+  $(this).addClass('on')
 })
