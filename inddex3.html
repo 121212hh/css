@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dataset</title>
+</head>
+<body> 
+    <h1>커피를주문하세요</h1>
+    <button data-coffe-name="아메리카노" data-price="4000">아메리카노</button>
+    <button data-coffe-name="카페라떼" data-price="4500">카페라떼</button>
+    <button data-coffe-name="바닐라라떼" data-price="5000">바닐라라떼</button>
+    <button data-coffe-name="카푸치노" data-price="5500">카푸치노</button>
+    <button data-coffe-name="카라멜마키아토" data-price="5500">카라멜마키아토</button>
+    <button data-coffe-name="청포도에이드" data-price="4500">청포도에이드</button>
+    <button data-coffe-name="자몽에이드" data-price="5000">자몽에이드</button>
+
+    <hr>
+    <h2>주문내역</h2>
+    <p>
+        제품명:<span id="coffe"></span><br><br>가격:<span id="price"></span><br><br>제품을 주문하셨습니다
+    </p>
+
+
+    <script>
+        //문서객체 선택
+        let btn = document.getElementsByTagName("button")
+        console.log(btn)
+        let coffe = document.getElementById("coffe")
+        console.log(coffe)
+        let price = document.getElementById("price")
+        console.log(price)
+
+        for(let i=0;i<btn.length;i++){
+            btn[i].addEventListener("click",function(){
+                let cName = this.dataset.coffeName
+                let cPrice = this.dataset.price
+
+                coffe.innerHTML = cName
+                price.innerHTML = cPrice
+            })
+        }
+    </script>
+</body>
+</html>
