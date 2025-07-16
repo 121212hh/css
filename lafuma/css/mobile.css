@@ -77,9 +77,9 @@
         top: 50%;
         transform: translateY(-50%);
     }
-        .m_menu_wrap .m_gnb>li>.depth2>li::after:last-child{
-            display: none;
-        }
+    .m_menu_wrap .m_gnb>li>.depth2>li::after:last-child{
+        display: none;
+    }
     .m_menu_wrap .m_gnb>li>.depth2>li>a{
         display: block;
         display: flex;
@@ -121,7 +121,7 @@
     /* 모바일 메뉴 숨김 처리 보이기 */
     .m_btn{
         /* 숨김처리 보이게 하기 */
-        display:block;
+        display: block;
         width: 24px;
         height: 24px;
         background: url("../images/m_menu.png") no-repeat;
