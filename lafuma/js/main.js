@@ -51,12 +51,13 @@ $(function () {
     })
 
   })
-  $(function(){
-    $("btn_family").click(function(){
-      $(".family_box .list").slideToggle()
-      $(this).toggleClass("on")
-    })
+$(function(){
+  $('.btn_family').click(function(){
+    $(".family_box .list").slideToggle();
+    $(this).toggleClass("on");
   })
+
+})
 
 
 })
@@ -64,8 +65,8 @@ $(function () {
     let num = $(this).width()
     console.log("창사이즈",num)
     if(num<=767){
-      $(".swiper .swiper-wrapper .slide1 a img").attr("src",'./images/m_visual_a.jpg')
-      $(".swiper .swiper-wrapper .slide2 a img").attr("src",'./images/m_visual_b.jpg')
+      $(".swiper .swiper-wrapper .slide1 a img").attr("src","./images/m_visual_a.jpg")
+      $(".swiper .swiper-wrapper .slide2 a img").attr("src","./images/m_visual_b.jpg")
       $(".content .list li a img").attr("src","./images/m_cata_ot.jpg")
       $(".content .list li a img").attr("src","./images/m_cata_ot.jpg")
       $(".content .list li a img").attr("src","./images/m_cata_ot.jpg")

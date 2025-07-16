@@ -302,23 +302,28 @@ footer .inner .family_box{
 }
 footer .inner .family_box ul.list{
     position: absolute;
-    left: 0;
-    top: 0;
+    right: 0;
     bottom: 28px;
     width: 155px;
     border: 1px solid #363636;
     background: #fff;
     border-bottom: none;
+    display: none;
 
 }
 footer .inner .family_box p.site{
     position: relative;
+    font-size: 12px;
+    color: #28281C;
+    font-weight: 500;
 }
 footer .inner .family_box p.site::before{
-    content: "";
-    background: url(../images/france.jpg)no-repeat;
+    content: '';
+    width: 20px;
+    height: 15px;
+    background: url("../images/france.jpg")no-repeat;
     position: absolute;
-    left: -6;
+    left: -26px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -334,7 +339,7 @@ footer .inner .family_box .btn_family{
 }
 /* on class */
 footer .inner .family_box .btn_family.on{
-    background-position-y: -25px;
+    background-position-y: -24px;
 }
 footer .inner .family_box .btn_family{
     position: relative;
@@ -346,10 +351,12 @@ footer .inner .family_box ul.list{
     width: 155px;
     border: 1px solid #363636;
     background: #fff;
+    border-bottom: none;
+    display: none;
 }
 footer .inner .family_box ul.list li{
 text-indent: 10px;
-line-height: 36px;
+line-height: 26px;
 }
 footer .inner .family_box ul.list li a{
     font-size: 12px;
@@ -358,6 +365,9 @@ footer .inner .family_box ul.list li a{
 }
 footer .inner .family_box ul.list li:hover{
     background: #efefef;
+}
+footer .inner .family_box .btn_family.on{
+    background-position-y: -24px;
 }
 /* copy */
 footer .copy{
