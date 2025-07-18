@@ -1,0 +1,75 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "roboto","Noto Sans KR", sans-serif;
+    background: #f5f5f5;
+}
+
+*{margin: 0;padding: 0;}
+a{text-decoration: none;}
+button{border: none; background: none; cursor: pointer;}
+img{border: none; display: block;}
+li{list-style: none;}
+
+.login{
+    width: 100%;
+    height: 247px;
+    background: #fff;
+    margin: auto;
+    /* padding: 40px 100px 36px; */
+}
+.login h2{
+    font-size: 1.25rem;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 23px;
+    font-weight: 500;
+}
+.login ul{
+    display: flex;
+    gap: 11px;
+    justify-content: center;
+    margin-bottom: 27px;
+}
+.login ul li:nth-child(1){
+    width: 105px;
+    height: 47px;
+}
+.login ul li:nth-child(2){
+    width: 90px;
+    height: 47px;
+}
+.login ul li a{
+    display: block;
+    border-radius: 999px;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    text-align: center;
+    line-height: 47px;
+}
+.login ul li:nth-child(1) a{
+    color: #111;
+    background: #eee;
+}
+.login ul li:nth-child(2) a{
+    color: #fff;
+    background: #00913a;
+}
+.login p{
+    font-size: 14px;   
+    font-weight: 400;
+    text-align: center;
+}
+.login p a{
+    color: #111;
+    position: relative;
+}
+.login p a span{
+    position: absolute;
+    right: -8px;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
