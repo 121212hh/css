@@ -50,7 +50,7 @@ $(function(){
 gsap.registerPlugin(ScrollTrigger);
     gsap.timeline({
     scrollTrigger:{
-        scrub:2,
+        scrub:1,
         trigger:"#work",
         start:"0% 100%",
         end:"0% 20%",
@@ -58,4 +58,4 @@ gsap.registerPlugin(ScrollTrigger);
     }
 })
 // .to("선택자",{},0)
-.to("#work",{background:"#000",,ease:'none',duration:5},0)
+.to("#work",{background:"#fff",ease:'none',duration:5},0)
