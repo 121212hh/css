@@ -329,14 +329,12 @@ margin-bottom: 40px;
 #contact p{
 color: #000;
 font-size: 50px;
-background: gold;
 margin: auto;
 }
 .p_p{
   display: flex;
   gap: 30px;
   margin: auto;
-background: red;
 margin-top: 200px;
 }
 
