@@ -50,7 +50,7 @@ $(function(){
 gsap.registerPlugin(ScrollTrigger);
     gsap.timeline({
     scrollTrigger:{
-        scrub:4,
+        scrub:1,
         trigger:"#work",
         start:"0% 70%",
         end:"0% 20%",
