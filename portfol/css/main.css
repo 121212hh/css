@@ -1,0 +1,348 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nanum+Gothic&family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  height: 3000px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.en {
+  font-family: "cormorant", serif;
+}
+section{
+  width: 100%;
+  overflow: hidden;
+}
+
+/* header 영역 */
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  padding: 30px;
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* header가 위로 올라감 */
+header.move {
+  transform: translateY(-100%);
+}
+header h1 a {
+  color: #fff;
+}
+
+/* 주메뉴 */
+header .navi_wrap .gnb {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transform: translateX(200px);
+  transition: all 0.5s ease-in-out;
+}
+header.on .navi_wrap .gnb {
+  transform: translateX(0);
+  opacity: 1;
+}
+header .navi_wrap .gnb ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  height: 100%;
+}
+header .navi_wrap .gnb ul li a {
+  color: rgba(255, 255, 255, 0.6);
+}
+header .navi_wrap .gnb ul li:hover a {
+  color: #F300B4;
+}
+/* 햄버거버튼 */
+header .navi_wrap {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.m_btn {
+  width: 30px;
+  height: 25px;
+  position: relative;
+  cursor: pointer;
+}
+.m_btn span {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  left: 0;
+}
+.m_btn span:nth-child(1) {
+  top: 0;
+  transition: all 0.5s ease-in-out;
+}
+.m_btn span:nth-child(2) {
+  top: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.m_btn span:nth-child(3) {
+  top: 20px;
+  transition: all 0.5s ease-in-out;
+}
+header.on .m_btn span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 10px;
+}
+header.on .m_btn span:nth-child(2) {
+  transform: translateX(100%);
+  opacity: 0;
+}
+header.on .m_btn span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 10px;
+}
+/* intro section */
+#intro {
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  padding-top: 150px;
+  position: relative;
+}
+#intro .intro_txt {
+  font-size: 100px;
+  line-height: 1.2;
+  letter-spacing: -5px;
+  padding-left: 100px;
+  box-sizing: border-box;
+}
+#intro .intro_txt .tit,
+#designwork h2 p.a
+ {
+  color: #F300B4;
+}
+#intro .intro_txt .tit2 {
+  font-size: 120px;
+}
+#intro .subtxt {
+  position: absolute;
+  left: 100px;
+  bottom: 150px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 24px;
+}
+#about{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    position: relative;
+}
+#about h2{
+color: #F300B4;
+font-size: 100px;
+font-weight: 400;
+position: absolute;
+left: 440px;
+top: 30px;
+}
+#about .about_wrap{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+#about .about_r{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+#about .ex p{
+    color: #9A9A9A;
+    font-size: 24px;
+}
+
+ .skill_wrap ul.list li{
+  display:flex;
+  gap:32px;
+  color:rgba(255, 255, 255, 0.5);
+  margin-bottom: 24px;
+  align-items: center;
+}
+.skill_wrap ul.list li .tit{
+   width: 100px;
+}
+.skill_wrap ul.list li .gage{
+  width: 363px;
+  height: 10px;
+  background: #9A9A9A;
+  position: relative;
+}
+.skill_wrap ul.list li .gage .gagein{
+  position: absolute;
+  width: 95%;
+  height: 10px;
+  background: #F300B4;
+}
+.skill_wrap ul.list li:nth-child(3) .gage .gagein{
+  width: 75%;
+} 
+.skill_wrap ul.list li:nth-child(4) .gage .gagein{
+  width: 80%;
+}
+.about_wrap .about_l .txtbox ul{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.about_wrap .about_l .imgbox{
+    width: 280px;
+    height: 280px;
+    margin-bottom: 35px;
+}
+.about_wrap .about_l .imgbox img{
+    width: 100%;
+    height: 100%;
+}
+#work{
+    width: 100%;
+  margin-bottom:200px ;
+  background: #000;
+}
+#work>h2{
+    text-align: center;
+    margin: 250px;
+    color: #F300B4;
+    font-size: 100px;
+}
+#work .inner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 200px 0;
+    box-sizing: border-box;
+}
+#work .inner .imgbox{
+    width: 45%;
+}
+#work .inner .imgbox img{
+    width: 100%;
+    height: 100%;
+}
+#work .inner .txtbox{
+width: 25%;
+padding: 60px 0px 100px 30px;
+    position: relative;
+    background: #F0F0F0;
+}
+#work .inner .txtbox h2{
+color: #F300B4;
+font-size: 40px;
+font-weight: 600;
+margin-bottom: 300px;
+}
+#work .inner .txtbox .txt{
+    display: flex;
+}
+/* #work .inner .txtbox .txt .line{
+    width: 1px;
+    height: 18px;
+    background: #000;
+} */
+#work .inner .txtbox .txt p{
+color: #000;
+font-size: 18px;
+margin-bottom: 40px;
+}
+#work button{
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+
+}
+#work button a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 40px;
+    display: flex;
+    position: relative;
+    background: #fff;
+    color: #F300B4;
+    border-bottom: 1px solid #000;
+}
+#work button a span{
+    font-size:  20px;
+    position: absolute;
+    right: 5px;
+    top: 49%;
+    transform: translateY(-50%);
+    color: #F300B4;
+}
+#work button:hover a span,
+#work button:hover a{
+    background: #F300B4;
+    color: #fff;
+    border: none;
+
+}
+#contact{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+}
+#contact h2{
+  color: #000;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 100px;
+}
+#contact p:nth-child(1){
+  margin-left: 50%px;
+}
+#contact p{
+color: #000;
+font-size: 50px;
+margin: auto;
+}
+.p_p{
+  display: flex;
+  gap: 30px;
+  margin: auto;
+margin-top: 200px;
+}
+
+#contact p a{
+  color: #000;
+}
+
+
+
+
+
